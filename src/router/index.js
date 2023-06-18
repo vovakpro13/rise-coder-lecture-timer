@@ -6,7 +6,7 @@ import SetUpPage from "../components/SetUpPage";
 
 const Router = () => {
     return (
-        <BrowserRouter basename="rise-coder-lecture-timer">
+        <BrowserRouter>
             <BrowserRoutes>
                 <Route path={Routes.Home} element={<HomePage/>}/>
                 <Route path={Routes.SetUp} element={<SetUpPage/>}/>
