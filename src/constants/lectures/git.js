@@ -1,0 +1,1 @@
+export const GitLectures = ['Git Commands']

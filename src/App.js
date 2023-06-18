@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import {Box} from "@mui/material";
+import Header from "./components/Header";
+import Router from "./router";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Box className="wrapper">
+            <div className="twinkling"></div>
+
+            <Box zIndex={2} position="relative">
+                <Box display="flex" justifyContent="center">
+                    <Box>
+                        <Header>RISE CODER</Header>
+
+                        <Router/>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+    );
 }
 
 export default App;

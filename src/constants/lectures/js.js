@@ -1,0 +1,1 @@
+export const JSLectures = ['Type of variables', 'Other', 'LAST']
